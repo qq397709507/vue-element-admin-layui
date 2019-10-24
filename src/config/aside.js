@@ -1,0 +1,61 @@
+/* 侧边导航菜单
+	限制:至多 三级 菜单.
+	顶级可配置 icon 只能为unicode格式
+	url:菜单调整链接
+*/
+const aside = [{
+			id:'0',
+			title:'首页',
+      name:'consoleView',
+			url:'@/views/consoleView/consoleView.vue',
+			icon:'&#xe724;',
+			children:[]
+		},
+    {
+			id:'1',
+			title:'导航2',
+      name:'ts2',
+			url:'@/views/ts2/ts2.vue',
+			icon:'&#xe724;',
+			children:[]
+		},
+		{
+			id:'2',
+			title:'导航3',
+      name:'ts3',
+			url:'',
+			icon:'&#xe724;',
+			children:[{
+					id:'1',
+					title:'子导航2',
+          name:'ts4',
+					url:'',
+					icon:'&#xe724;',
+					children:[{
+						'id':'1',
+						'title':'三级菜单',
+						'url':'哈哈哈'
+					}]
+				},
+			]
+		},
+		{
+			id:'3',
+			title:'导航4',
+      name:'ts6',
+			url:'',
+			icon:'&#xe724;',
+			children:[]
+		},
+		{
+			id:'4',
+			title:'导航5',
+      name:'ts',
+			url:'',
+			icon:'&#xe724;',
+			children:[]
+		},
+	]
+	export default {
+		aside
+	}

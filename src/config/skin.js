@@ -1,0 +1,49 @@
+const skin = [{
+  "main": "#24262F",
+  "logo": "#24262F",
+  "selected": "#5FB878"
+}, {
+  "main": "#20222A",
+  "logo": "#1E9FFF",
+  "selected": "#009688"
+}, {
+  "main": "#03152A",
+  "logo": "#1E9FFF",
+  "selected": "#3B91FF"
+}, {
+  "main": "#2E241B",
+  "logo": "#1E9FFF",
+  "selected": "#A48566"
+}, {
+  "main": "#50314F",
+  "logo": "#1E9FFF",
+  "selected": "#7A4D7B"
+}, {
+  "main": "#344058",
+  "logo": "#1E9FFF",
+  "selected": "#1E9FFF"
+}, {
+  "main": "#20222A",
+  "logo": "#F78400",
+  "selected": "#F78400"
+}, {
+  "main": "#28333E",
+  "logo": "#AA3130",
+  "selected": "#AA3130"
+}, {
+  "main": "#24262F",
+  "logo": "#3A3D49",
+  "selected": "#009688"
+}, {
+  "main": "#344058",
+  "logo": "#0085E8",
+  "selected": "#1E9FFF",
+  "header": "#1E9FFF"
+}, {
+  "main": "#24262F",
+  "logo": "#2F9688",
+  "selected": "#1E9FFF",
+  "header": "#2F9688"
+}]
+
+export default skin
